@@ -327,5 +327,9 @@ blocks:
 
         - name: KSQL anomaly detection tests
           commands:
-            - make -C _includes/tutorials/anomaly-detection/ksql/code tutorial
-
+            - make -C _includes/tutorials/anomaly-detection/ksql/code tutorial 
+        
+        - name: KSQL Test ksqlDB nested JSON tests
+          commands:
+            - make -C _includes/tutorials/ksql-nested-json/ksql/code tutorial
+        
